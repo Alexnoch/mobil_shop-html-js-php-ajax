@@ -1,0 +1,33 @@
+.mail{
+    margin-top:120px;
+}
+
+.mail__row{
+    display: flex;
+    flex-direction: column;
+    border:2px solid black;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding:30px 0;
+    
+    :first-child{
+        margin-bottom:50px;
+        margin-top: 20px;
+        font-size: 24px;
+    }
+
+    input{
+        border:1px solid red;
+        width:180px;
+        // height:30px;
+        background-color: rgb(168, 159, 159);
+        margin:5px;
+    }
+
+    button{
+        padding:5px 10px;
+        background-color: rgba(255, 0, 0, 0.233);
+        border-radius: 20px;
+    }
+}

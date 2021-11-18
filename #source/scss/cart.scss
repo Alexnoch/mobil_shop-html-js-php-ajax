@@ -1,0 +1,29 @@
+// ШРИФТ ПО УМОЛЧАНИЮ
+*{
+    font-family: sans-serif;
+    color:black;
+}
+// ШРИФТЫ
+
+// ОБНУЛЕНИЕ
+@import "null.scss";
+
+//МИКСИНЫ
+@import "mixin.scss";
+
+// ОБОЛОЧКА 
+
+
+// ОСНОВНАЯ СЕТКА (Выравнивание пример: 1170px)
+.container{
+ max-width:1100px;
+ margin: 0 auto;
+}
+
+// СТАНДАРТНЫЕ ПЕРЕМЕННЫЕ
+
+// ПЕРЕМЕННЫЕ ПРОЕКТА
+
+// ПОДКЛЮЧЕНИЕ ФАЙЛОВ СТИЛЕЙ СТРАНИЦ И ЭЛЕМЕНТОВ
+@import "header.scss";
+@import "cart__header.scss";
