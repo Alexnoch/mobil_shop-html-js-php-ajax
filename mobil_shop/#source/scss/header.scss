@@ -1,0 +1,223 @@
+.nav{
+    display: flex;
+    justify-content: space-between;
+    padding:10px 0;
+    border-bottom:2px solid rgb(189, 189, 189);
+}
+
+.nav__menu{
+    ul{
+        display: flex;
+
+        li{
+            margin-right:25px;
+        }
+
+        :last-child{
+            margin-right: 0;
+        }
+    }
+}
+
+
+.nav__hits{
+    ul{
+    display: flex;
+
+    li{
+        margin-right:15px;
+    }
+
+    :last-child{
+        margin-right: 0;
+    }
+
+    a{
+        font-weight: bold;
+    }
+    }
+}
+
+.head__title{
+    display: flex;
+    padding:50px 0;
+    justify-content: space-between;
+    position: relative;
+}
+
+.head__logo{
+    text-align: center;
+    h1{
+        font-size:48px;
+        text-transform: uppercase;
+        padding:5px 0;
+    }
+
+    span{
+        color:blue;
+    }
+}
+
+
+.head__info{
+    font-weight: bold;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding:15px 0;
+
+}
+
+.head__number{
+    display: flex;
+    align-items: center;
+}
+
+.head__number-phone{
+    display: flex;
+    flex-direction: column;
+    font-weight: bold;
+    border-right:2px solid rgb(189, 189, 189);
+    font-size: 20px;
+    text-align: center;
+    padding-right:40px;
+    margin-left: 10px;
+
+    :last-child{
+        color: blue;
+        font-size: 16px;
+        
+    }
+}
+
+.head__cart{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color:rgb(105, 105, 105);
+
+    span{
+        font-weight: bold;
+    }
+
+    img{
+        object-fit: contain;
+    }
+}
+
+.head__cart-link{
+    display: flex;
+
+    :last-child{
+        font-weight: bold;
+    }
+}
+
+.test{
+    position: absolute;
+    width:100vw;
+    margin: 0 auto;
+    left:0;
+    background-color: blue;
+}
+
+.head__catalog-row{
+    background-color: blue;
+    padding:20px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width:1100px;
+    margin: 0 auto;
+    position: relative;
+}
+
+
+.head__catalog a{
+    padding:10px 50px;
+    width:50px;
+    background-color: white;
+    border-radius: 20px;
+    color:blue;
+    font-weight: bold;
+    // text-transform: uppercase;
+    letter-spacing: 1px;
+    
+    img{
+        margin-left: 5px;
+    }
+}
+
+.head__search{
+    
+     input{
+        width:680px;
+        padding:10px;
+        border-radius: 20px;
+     }
+}
+
+.head__search-button{
+    width:130px;
+    padding:10px 0;
+    background-color: white;
+    border-radius: 20px;
+    text-align: center;
+    font-weight: bold;
+
+    a{
+        color:blue;
+    }
+}
+
+.block-content{
+    margin-top:100px;
+}
+
+.block-content__row{
+    display: flex;
+    flex-wrap: wrap;
+    border:2px solid rgb(248, 234, 206);
+    padding:5px;
+}
+
+.cart-test{
+    width:25%;
+    text-align: center;
+    border:2px solid rgb(223, 219, 213);
+    padding:15px 5px 30px 5px;
+
+}
+
+.cart-img{
+    width:100%;
+    height:200px;
+    object-fit: contain;
+    margin-bottom:15px;
+    
+}
+
+.cart-model{
+    font-weight: bold;
+}
+
+.cart-cost{
+    padding:10px 0;
+    font-weight: bold;
+    color:red;
+    font-size: 20px;
+    
+}
+
+.cart-desc{
+    font-weight: 300;
+}
+
+.cart-buy{
+    width:100%;
+    background-color: blue;
+    color:white;
+    border-radius: 20px;
+    margin-top:40px;
+    padding:10px 0;
+}

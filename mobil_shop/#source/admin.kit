@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/admin.css">
+    <title>ProMobil</title>
+</head>
+<body>
+    <div class="modal-update">
+        <p>Перезагрузка страницы . . .</p>
+    </div>
+    <h1 class="header">Админ панель</h1>
+    <a href="../index.html">Перейти на главную страницу сайта</a>
+    <div class="menu">
+        <div class="menu-panel">
+            <p>ШАГ 1. Список моделей телефонов</p>
+            <p>выберете модель что бы начать редактирование</p>
+            <div class="box">
+                <p>iPhone:</p>
+                <select class="select-menu"></select>
+            </div>
+            <div class="box">
+                <p>Samsung:</p>
+                <select class="select-menu-samsung">Samsung</select>
+            </div>
+            <div class="box">
+                <p>HTC:</p>
+                <select class="select-menu-samsung">Samsung</select>
+            </div>  
+            <button id="query">Начать редактирование</button>      
+        </div>
+        <div class="view-container">
+            <p>ШАГ 2. Предварительный просмотр</p>
+            <div class="admin-panel-cart"></div>
+        </div>
+        <div class="edit-container">
+            <p>ШАГ 3. Редактирование</p>
+            <p>Введите новые параметры и сохраните в БД</p>
+            <div class="download-file">
+                <input id="sortpicture" type="file" name="sortpic" />
+                <button id="upload">Загрузить</button>
+            </div>
+            <p class="input-margin">Заполните поля:</p>
+            <!-- <p>Введите название картинки</p> -->
+            <input id="img" type="hidden" name="img" value="">
+            <p>Введите название модели</p>
+            <input id="model"  type="text" name="model" value="">
+            <p>Введите стоимость</p>
+            <input id="cost" type="text" name="cost" value="">
+            <p>Введите описание</p>
+            <input id="description"  type="text" name="description" value="">
+            <button id="saveInDb">Сохранить в БД</button>
+            <p class="edit-container__condition" id="condition"></p>
+        </div>
+    </div>
+    <script src="../library/jquery-3.3.1.js"></script>
+    <script src="view/admin.js"></script>
+</body>
+</html>
